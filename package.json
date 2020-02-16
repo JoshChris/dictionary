@@ -1,0 +1,31 @@
+{
+  "name": "dictionary",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "env-cmd -f ./.env nodemon --exec babel-node server.js",
+    "test": "jest"
+  },
+  "author": "Josh Christopherson",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.0",
+    "wretch": "^1.7.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.6.0",
+    "@babel/core": "^7.8.4",
+    "@babel/node": "^7.6.1",
+    "@babel/preset-env": "^7.8.4",
+    "babel-jest": "^25.1.0",
+    "jest": "^25.1.0",
+    "jest-fetch-mock": "^3.0.1",
+    "nodemon": "^2.0.2",
+    "supertest": "^4.0.2"
+  }
+}
